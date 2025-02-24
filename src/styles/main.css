@@ -1,0 +1,246 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+header {
+    height: 4.5vw;
+    min-height: 50px;
+    max-height: 120px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding: 5px;
+    padding-bottom: 10px;
+    overflow: visible;
+}
+
+#logo {
+    height: 40px;
+    max-height: 100px;
+    max-width: 100px;
+    float: left;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#logoa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: Bahnschrift;
+}
+
+footer {
+    background-color: black;
+}
+
+nav {
+    height: 30px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: stretch;
+    background-color: black;
+}
+
+@media (max-width: 800px) {
+    nav {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Flexible columns that wrap */
+    }
+}
+
+nav a {
+    height: auto;
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent; 
+    outline: none;
+    transition: all 0.2s ;
+    border-radius: 10px;
+    display: block;
+}
+
+.houses:hover {
+    outline: 1px solid #fff; 
+    border-color: #fff;
+}
+
+a:active {
+    color: black;
+}
+
+
+
+#Hero {
+    height: 700px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#hero_title {
+    font-size: 118px;
+    color: white;
+    font-weight:lighter;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+section {
+    padding: 10px;
+    margin-top: 50px;
+    height: 500px; 
+    scroll-margin-top: 50px;
+}
+
+#Gryffindor {
+    height: 700px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gryffindor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#Slytherin {
+    height: 700px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/slytherin.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#Ravenclaw {
+    height: 700px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ravenclaw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#Hufflepuff {
+    height: 700px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hufflepuff.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+
+#sorting-hat-shenanigans {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#house {
+    color: #fff;
+    padding: 10px;
+    border-style: double;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 5px;
+    top: 0;
+}
+
+#theEvilDoer {
+    height: 80%;
+}
+
+#hat {
+    height: 100%;
+}
+
+h1 {
+    overflow: visible;
+}
+
+
+
+#card {
+    background-color: magenta;
+    border-width: 10px;
+    border-color: #fff;
+    border-style: double;
+    border-radius: 20px;
+    padding: 50px;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Fun-fact-section {
+    background-color: violet;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#fact-p {
+    font-size: 18px;
+    justify-self: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cat-button {
+    justify-self: center;
+    align-self: center;
+    margin-top: auto;
+    width: 20%;
+}
+
+#cat-button:hover {
+cursor: pointer;
+color: #ffcdf9;
+}
+
+#cat-button:active {
+padding: 9px;
+margin-top: 1.5px;
+margin-left: 0.5px;
+background-color: rgb(75, 75, 75);
+}
