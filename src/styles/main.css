@@ -89,7 +89,7 @@ a:active {
 
 
 #Hero {
-    height: 700px;
+    height: 800px;
     margin-bottom: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg');
     background-size: cover;
@@ -110,12 +110,11 @@ a:active {
 section {
     padding: 10px;
     margin-top: 50px;
-    height: 90vh; 
     scroll-margin-top: 50px;
 }
 
 #Gryffindor {
-    height: 700px;
+    height: 800px;
     margin-bottom: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gryffindor.jpg');
     background-size: cover;
@@ -124,7 +123,7 @@ section {
 }
 
 #Slytherin {
-    height: 700px;
+    height: 800px;
     margin-bottom: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/slytherin.jpg');
     background-size: cover;
@@ -133,7 +132,7 @@ section {
 }
 
 #Ravenclaw {
-    height: 700px;
+    height: 800px;
     margin-bottom: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ravenclaw.jpg');
     background-size: cover;
@@ -142,7 +141,7 @@ section {
 }
 
 #Hufflepuff {
-    height: 700px;
+    height: 800px;
     margin-bottom: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hufflepuff.jpg');
     background-size: cover;
