@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts</title>
+    <link rel="stylesheet" type="text/css" href="src/styles/main.css">
+    <link rel="icon" type="image/x-icon" href="src/images/icon.ico">
+</head>
+<body>
+    <header>
+        <a href="#Hero" id="logoa"><img src="src/images/logo.png" id="logo"></a>
+        <nav>
+            <a href="#Gryffindor" class="houses">Gryffindor</a>
+            <a href="#Slytherin" class="houses">Slytherin</a>
+            <a href="#Ravenclaw" class="houses">Ravenclaw</a>
+            <a href="#Hufflepuff" class="houses">Hufflepuff</a>
+            <a href="#Sorting-hat" class="houses">Find out your house</a>
+            <a href="#Fun-fact-section" class="houses">Cat Fact</a>
+        </nav>
+    </header> 
+    <main>
+        <section id="Hero">
+            <h1 id="hero_title">Hogwarts</h1>
+            <h3>Discover the magic, mystery, and adventure of the Wizarding World—your journey begins at Hogwarts.</h3>
+            <h4>Enroll into one of the four houses - Gryffindor, Slytherin, Ravenclaw or Hufflepuff.</h4>
+        </section>
+
+        <section id="Gryffindor">
+            <h1 class="house-titles">Gryffindor</h1>
+            <p>Gryffindor House is defined by its commitment to bravery, courage, and daring. Founded by Godric Gryffindor, this house values individuals who are bold, not afraid to stand up for their beliefs, and willing to take risks for a greater cause. It’s known for producing some of the most famous and heroic figures in wizarding history, such as Harry Potter, Hermione Granger, and Albus Dumbledore. The emblem of Gryffindor is the lion, symbolizing strength and courage, and its colors are red and gold. The Gryffindor common room, a warm and inviting space located in a tower, is often filled with laughter and camaraderie.</p>
+
+            <p>Gryffindors are renowned for their strong sense of justice, and members of the house tend to be fiercely loyal to their friends and ideals. While their courage often drives them to the front lines in battle, whether physical or moral, it can also lead them into mischief or difficult situations. The house has a long-standing rivalry with Slytherin, often marked by competition, especially in Quidditch and the House Cup. Despite this, Gryffindors understand the value of teamwork and honor, making them some of the most respected and courageous students at Hogwarts.</p>
+        </section>
+
+        <section id="Slytherin">
+            <h1 class="house-titles">Slythrin</h1>
+            <p>Slytherin House is known for its ambition, cunning, and resourcefulness. Founded by Salazar Slytherin, this house values students who are driven by a desire to achieve greatness, often through clever strategies and careful planning. Slytherins believe in the power of determination and see obstacles as challenges to overcome with innovation and determination. The emblem of Slytherin is the serpent, symbolizing cunning and adaptability, and its colors are green and silver. Slytherin House is often associated with a strong desire to lead and influence, producing some of the most powerful witches and wizards in the magical world, including Lord Voldemort.</p>
+
+            <p>While Slytherins are often portrayed in a negative light due to the house's association with dark magic and its former members, the house also produces individuals with incredible leadership abilities and a knack for achieving success through perseverance and cleverness. The house’s members are typically fiercely ambitious, with many of them seeking power and control. Despite its sometimes contentious reputation, Slytherin also values loyalty among its own and has a strong sense of self-preservation. Slytherins tend to make great leaders, diplomats, and strategists, and their cunning and determination often lead them to success, even if their methods differ from the traditional heroic paths.</p>
+        </section>
+
+        <section id="Ravenclaw">
+            <h1 class="house-titles">Rawenclaw</h1>
+            <p>Ravenclaw House is celebrated for its emphasis on intellect, wisdom, and creativity. Founded by Rowena Ravenclaw, the house values those who are driven by a thirst for knowledge and an unyielding desire to explore the world of magic through logical thinking and innovation. Ravenclaw students are known for their curiosity, sharp wit, and the pursuit of both academic and artistic excellence. The house emblem is the eagle, symbolizing wisdom, perspective, and the pursuit of knowledge, and its colors are blue and bronze. Ravenclaw’s common room, perched high in the castle, offers a serene and peaceful atmosphere for deep thinking and reflection.</p>
+
+            <p>While Ravenclaws are often seen as the most intellectual students at Hogwarts, they also value individuality and creativity. Their love for learning isn’t just about acquiring facts but about making connections between ideas and creating new solutions. Members of Ravenclaw House excel in fields that require both intelligence and creativity, such as magical theory, potion-making, and magical inventing. Despite their academic nature, Ravenclaws are known to be some of the most open-minded and original thinkers in the wizarding world, contributing to the innovation and progress of magic itself.</p>
+        </section>
+
+        <section id="Hufflepuff">
+            <h1 class="house-titles">Hufflepuff</h1>
+            <p>Hufflepuff House, founded by Helga Hufflepuff, is perhaps the most inclusive and kind-hearted of the four houses. The house values patience, loyalty, fairness, and hard work above all else, and it prides itself on accepting students who may not fit the conventional mold of bravery or intelligence but possess an unwavering dedication to others. The emblem of Hufflepuff is the badger, symbolizing loyalty and hardworking nature, and its colors are yellow and black. The Hufflepuff common room is located near the kitchens, offering a cozy, welcoming space for students to unwind after a long day.</p>
+
+            <p>Members of Hufflepuff are often seen as the most grounded and fair-minded individuals in the wizarding world. While they may not be as outwardly competitive as Gryffindors or Ravenclaws, Hufflepuffs are fiercely loyal and will stand by their friends no matter what. They excel in areas that require persistence, like herbology and care of magical creatures. Many Hufflepuffs go on to successful careers in the wizarding world where their reliability, fairness, and teamwork skills are essential. Though they may not seek the spotlight, their humble nature and strong work ethic make them invaluable allies and friends.</p>
+        </section>
+
+        <section id="Sorting-hat">
+            <h1>Find out which House is suited for you!</h1>
+            <div id="sorting-hat-shenanigans">
+                <button onclick="getHouse()" id="theEvilDoer"><img src="src/images/hat-front-removebg-preview.png" id="hat"></button>
+                <p id="house">Click the Hat!</p>
+            </div>
+        </section>
+
+        <section id="Fun-fact-section">
+            <h1>Random cat fact</h1>
+            <div id="card">
+                <p id="fact-p">Press the button to get a cat fact.</p>
+                <button onclick="getCatFact()" id="cat-button">Cat Fact</button>
+            </div>
+        </section> 
+
+    </main>
+    <footer>
+        
+    </footer>
+<script src="src/javascript/main.js"></script>
+</body>
+
+</html>
